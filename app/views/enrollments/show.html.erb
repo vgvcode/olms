@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Student_id:</strong>
+  <%= @enrollment.student_Id %>
+</p>
+
+<p>
+  <strong>Course_id:</strong>
+  <%= @enrollment.course_Id %>
+</p>
+
+<%= link_to 'Edit', edit_enrollment_path(@enrollment) %> |
+<%= link_to 'Back', enrollments_path %>
